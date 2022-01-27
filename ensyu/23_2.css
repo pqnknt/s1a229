@@ -10,7 +10,7 @@ body{
 form{
     margin: 10px;
     padding: 20px;
-    margin: #fff;
+    background: #fff;
 }
 dl{
     margin: 0;
@@ -31,4 +31,10 @@ dt{
 dd{
     flex: 2 1 30px;
     margin-right: 0;
+}
+input[type ="text"],textarea{
+    border: 1px solid #999;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
 }
